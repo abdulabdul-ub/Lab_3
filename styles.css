@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */
+body, html {
+    font-family: 'Poppins', sans-serif; /* Set main font for the entire page */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Background and overlay */
+.background {
+    background-image: url('mountains.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Overlay to darken the background */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+    color: #00d9ff; /* Logo color */
+    font-size: 1.5em;
+}
+
+header nav a {
+    color: #fff;
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-weight: 400; /* Standard font weight */
+    font-size: 0.9em;
+}
+
+header nav a:hover {
+    color: #00e1ff;
+}
+
+/* Logo styling */
+.logo {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Space between logo and navigation */
+}
+
+/* Main Content */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+/* Main title text */
+.intro h2 {
+    font-size: 4em; /* Adjust the size as needed */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: white;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Highlight color for specific words */
+.intro h2 span {
+    color: #00ddff; /* Highlight color */
+}
+
+/* Hover effect for title text */
+.title-text:hover {
+    transform: scale(1.1); /* Increase size slightly */
+    text-shadow: 2px 2px 8px rgba(0, 170, 255, 0.7); /* Blue shadow */
+}
+
+/* Subtitle text */
+.intro p {
+    font-size: 1.2em;
+    font-weight: 400; /* Standard weight */
+    margin-top: 0.5em;
+    color: #ccc;
+}
