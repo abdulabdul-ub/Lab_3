@@ -7,7 +7,7 @@
 
 /* Main styling */
 body, html {
-    font-family: 'Poppins', sans-serif; /* Set main font for the entire page */
+    font-family: 'Poppins', sans-serif; 
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body, html {
 
 /* Background and overlay */
 .background {
-    background-image: url('mountains.jpg'); /* Replace with your background image URL */
+    background-image: url('mountains.jpg'); 
     background-size: cover;
     background-position: center;
     position: fixed;
@@ -49,11 +49,11 @@ header {
 }
 
 .page-title {
-    font-family: 'Poppins', sans-serif; /* Optional: use a different font if desired */
-    font-size: 2.5em; /* Adjust the size as needed */
-    color: #fff; /* Set color to match your theme */
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2.5em; 
+    color: #fff; 
     text-align: center;
-    margin-top: 20px; /* Adjust spacing from header */
+    margin-top: 20px; /* spacing from header */
 }
 
 header h1 {
@@ -75,9 +75,9 @@ header nav a:hover {
 
 /* Logo styling */
 .logo {
-    height: 50px; /* Adjust the height as needed */
-    width: auto; /* Maintains aspect ratio */
-    margin-right: 20px; /* Space between logo and navigation */
+    height: 50px; 
+    width: auto; 
+    margin-right: 20px; 
 }
 
 /* Container for the hobbies gallery */
@@ -93,8 +93,8 @@ header nav a:hover {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    width: 300px; /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
+    width: 300px; 
+    height: 400px; 
 }
 
 /* Image styling and hover effect */
@@ -129,7 +129,7 @@ header nav a:hover {
 }
 
 .hobby-image-container:hover .hobby-overlay {
-    opacity: 1; /* Show the overlay on hover */
+    opacity: 1; /* ShowS the overlay on hover */
 }
 
 /* Overlay text styling */

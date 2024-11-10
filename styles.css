@@ -7,7 +7,7 @@
 
 /* Main styling */
 body, html {
-    font-family: 'Poppins', sans-serif; /* Set main font for the entire page */
+    font-family: 'Poppins', sans-serif; 
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body, html {
 
 /* Background and overlay */
 .background {
-    background-image: url('mountains.jpg'); /* Replace with your background image URL */
+    background-image: url('mountains.jpg'); 
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -56,7 +56,7 @@ header nav a {
     color: #fff;
     margin-left: 1.5em;
     text-decoration: none;
-    font-weight: 400; /* Standard font weight */
+    font-weight: 400; /* font weight */
     font-size: 0.9em;
 }
 
@@ -66,8 +66,8 @@ header nav a:hover {
 
 /* Logo styling */
 .logo {
-    height: 50px; /* Adjust the height as needed */
-    width: auto; /* Maintains aspect ratio */
+    height: 50px; 
+    width: auto; 
     margin-right: 20px; /* Space between logo and navigation */
 }
 
@@ -83,15 +83,15 @@ header nav a:hover {
 
 /* Main title text */
 .intro h2 {
-    font-size: 4em; /* Adjust the size as needed */
-    font-weight: 700; /* Bold font weight for emphasis */
+    font-size: 4em; 
+    font-weight: 700; /* Bold font */
     color: white;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
 /* Highlight color for specific words */
 .intro h2 span {
-    color: #00ddff; /* Highlight color */
+    color: #00ddff; 
 }
 
 /* Hover effect for title text */
@@ -103,7 +103,7 @@ header nav a:hover {
 /* Subtitle text */
 .intro p {
     font-size: 1.2em;
-    font-weight: 400; /* Standard weight */
+    font-weight: 400; 
     margin-top: 0.5em;
     color: #ccc;
 }

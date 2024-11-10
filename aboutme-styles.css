@@ -78,17 +78,17 @@ header nav a:hover {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    overflow-y: auto; /* Enable scrolling if text overflows */
+    overflow-y: auto; /* Enable scrolling */
     margin: 2em auto;
     padding: 2em;
-    color: #333; /* Default text color */
-    min-height: 500px; /* Set a minimum height */
-    height: auto; /* Allows the section to expand based on content */
+    color: #333; 
+    min-height: 500px; 
+    height: auto; /* Allows the section to expand */
 }
 
 .about-content {
     flex: 1;
-    padding-right: 20px; /* Add some spacing between text and image */
+    padding-right: 20px; /* Add spacing between text and image */
 }
 
 .about-content h1 {
